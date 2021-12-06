@@ -1,0 +1,13 @@
+package example.examen1_curay_jinde;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class RestarActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_restar);
+    }
+}

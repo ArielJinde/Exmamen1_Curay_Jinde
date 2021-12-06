@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_row="10"
+    android:columnCount="2"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText_cantidad"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+
+        android:paddingBottom="@dimen/textView_Padding"
+        android:layout_gravity="fill_horizontal"
+        android:layout_margin="15dp"
+        android:background="#BBDEFB"
+        android:digits="0123456789.,"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:ems="10"
+        android:hint="numero"
+        android:inputType="textPersonName"
+        />
+
+    <TextView
+        android:id="@+id/percentTextView"
+        android:layout_margin="16dp"
+        android:padding="12dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal"
+        android:text="Ingrese un numero :"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/percentTextVie2"
+        android:layout_margin="16dp"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal"
+        android:text="Ingrese un numero :"
+        android:textSize="16sp"
+        android:padding="12dp"/>
+
+    <EditText
+        android:id="@+id/editText_cantidad2"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_margin="15dp"
+        android:background="#BBDEFB"
+        android:digits="0123456789.,"
+
+        android:ems="10"
+        android:hint="numero"
+        android:inputType="textPersonName"
+
+        android:paddingBottom="@dimen/textView_Padding" />
+
+    <Button
+        android:id="@+id/button_calcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_margin="16dp"
+        android:elevation="@dimen/elevation"
+        android:gravity="center"
+        android:padding="12dp"
+        android:paddingBottom="@dimen/textView_Padding"
+        android:text="Calcular"
+        android:textSize="16sp" />
+    <Button
+        android:id="@+id/button_siguiente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="10"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_margin="16dp"
+        android:elevation="@dimen/elevation"
+        android:gravity="center"
+        android:padding="12dp"
+        android:paddingBottom="@dimen/textView_Padding"
+        android:text="Siguiente Restar"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_resultado"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal"
+        android:layout_margin="16dp"
+        android:padding="12dp"
+        android:text="resultado"
+
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView_resultado"
+        android:layout_gravity="fill_horizontal"
+        android:layout_margin="16dp"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:textSize="16sp"
+        android:hint="Resultado"
+
+        android:padding="12dp"/>
+
+
+</GridLayout>
