@@ -11,20 +11,19 @@
 
     <EditText
         android:id="@+id/editText_cantidad"
-        android:layout_width="171dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:paddingBottom="@dimen/textView_Padding"
+        android:layout_row="2"
+        android:layout_column="0"
         android:layout_gravity="fill_horizontal"
         android:layout_margin="15dp"
         android:background="#BBDEFB"
         android:digits="0123456789.,"
-        android:layout_row="1"
-        android:layout_column="1"
         android:ems="10"
         android:hint="numero"
         android:inputType="textPersonName"
-        />
+        android:paddingBottom="@dimen/textView_Padding" />
 
     <TextView
         android:id="@+id/percentTextView"
@@ -39,7 +38,7 @@
     <TextView
         android:id="@+id/percentTextVie2"
         android:layout_margin="16dp"
-        android:layout_row="2"
+        android:layout_row="4"
         android:layout_column="0"
         android:layout_gravity="center_horizontal"
         android:text="Ingrese un numero :"
@@ -48,10 +47,10 @@
 
     <EditText
         android:id="@+id/editText_cantidad2"
-        android:layout_width="171dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_row="2"
-        android:layout_column="1"
+        android:layout_row="5"
+        android:layout_column="0"
         android:layout_gravity="fill_horizontal"
         android:layout_margin="15dp"
         android:background="#BBDEFB"
@@ -67,8 +66,8 @@
         android:id="@+id/button_calcular"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_row="3"
-        android:layout_column="1"
+        android:layout_row="7"
+        android:layout_column="0"
         android:layout_gravity="fill_horizontal"
         android:layout_margin="16dp"
         android:elevation="@dimen/elevation"
@@ -84,7 +83,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_row="10"
-        android:layout_column="1"
+        android:layout_column="0"
         android:layout_gravity="fill_horizontal"
         android:layout_margin="16dp"
         android:elevation="@dimen/elevation"
@@ -97,7 +96,7 @@
 
     <TextView
         android:id="@+id/text_resultado"
-        android:layout_row="4"
+        android:layout_row="8"
         android:layout_column="0"
         android:layout_gravity="fill_horizontal"
         android:layout_margin="16dp"
@@ -110,8 +109,8 @@
         android:id="@+id/textView_resultado"
         android:layout_gravity="fill_horizontal"
         android:layout_margin="16dp"
-        android:layout_row="4"
-        android:layout_column="1"
+        android:layout_row="9"
+        android:layout_column="0"
         android:textSize="16sp"
 
 

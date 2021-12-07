@@ -13,13 +13,13 @@ import java.util.List;
 
 
 public class MainActivity extends AppCompatActivity {
-    EditText editText_cantidad1;
-    EditText editText_cantidad2;
+    private EditText editText_cantidad1;
+    private EditText editText_cantidad2;
 
-    TextView textView_resultado;
+    private  TextView textView_resultado;
 
-    Button button_calcular;
-    Button button_siguiente;
+    private Button button_calcular;
+    private Button button_siguiente;
 
     private List<String> listaValor1 =new ArrayList<String>();
     private List<String> listaValor2 =new ArrayList<String>();
@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         editText_cantidad1 = findViewById(R.id.editText_cantidad);
         editText_cantidad2 = findViewById(R.id.editText_cantidad2);
 
-
+       textView_resultado =findViewById(R.id.textView_resultado);
 
 
 
