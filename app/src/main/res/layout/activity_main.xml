@@ -73,6 +73,7 @@
         android:layout_margin="16dp"
         android:elevation="@dimen/elevation"
         android:gravity="center"
+        android:onClick="calcularSuma"
         android:padding="12dp"
         android:paddingBottom="@dimen/textView_Padding"
         android:text="Calcular"
